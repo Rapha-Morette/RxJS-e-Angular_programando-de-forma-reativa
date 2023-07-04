@@ -42,6 +42,6 @@ export interface Item {
 }
 
 export interface LivrosResultado {
-  item: Item[];
+  items: Item[];
   totalItems: number;
 }
