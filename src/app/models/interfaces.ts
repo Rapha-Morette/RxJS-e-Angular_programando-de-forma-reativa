@@ -14,7 +14,6 @@ export interface VolumeInfo {
   publisher: string;
   publishedDate: string;
   description: string;
-
   pageCount: number;
   printType: string;
   mainCategory: string;
