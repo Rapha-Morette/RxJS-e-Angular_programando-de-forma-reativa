@@ -4,10 +4,9 @@ import { Livro } from 'src/app/models/interfaces';
 @Component({
   selector: 'app-livro',
   templateUrl: './livro.component.html',
-  styleUrls: ['./livro.component.css']
+  styleUrls: ['./livro.component.css'],
 })
 export class LivroComponent {
-
   @Input() livro: Livro;
   modalAberto: boolean;
 
